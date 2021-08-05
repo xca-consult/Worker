@@ -61,8 +61,6 @@ namespace Worker
 
             app.UseSerilogRequestLogging();
 
-            app.UseHttpsRedirection();
-
             app.UseCors(MyAllowSpecificOrigins);
             app.UseRouting();
  

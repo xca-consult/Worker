@@ -3,11 +3,11 @@ using Xunit;
 
 namespace SystemTests
 {
-    public class CreateTests : IClassFixture<ApplicationFixture>
+    public class HealthTests : IClassFixture<ApplicationFixture>
     {
         private readonly ApplicationFixture _applicationFixture;
 
-        public CreateTests(ApplicationFixture applicationFixture)
+        public HealthTests(ApplicationFixture applicationFixture)
         {
             _applicationFixture = applicationFixture;
         }

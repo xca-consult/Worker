@@ -13,7 +13,7 @@
 
         public string GetConnectionString()
         {
-            return $"Data Source={DataSource},{Port};Initial Catalog={InitialCatalog};User Id=sa;Password=Password1234;Pooling={Pooling};MultiSubnetFailover={MultiSubnetFailover}";
+            return $"Data Source={DataSource},{Port};Initial Catalog={InitialCatalog};User Id={UserId};Password={Password};Pooling={Pooling};MultiSubnetFailover={MultiSubnetFailover}";
         }
     }
 }
